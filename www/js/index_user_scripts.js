@@ -24,6 +24,25 @@
          return false;
     });
     
+        /* listitem  #btn_leitura */
+    
+    
+        /* listitem  #btn_leitura */
+    $(document).on("click", "#btn_leitura", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#uib_page_reading2"); 
+         return false;
+    });
+    
+        /* listitem  Cartas de Cristo2 */
+    $(document).on("click", ".uib_w_6", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#uib_page_reading"); 
+         return false;
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
