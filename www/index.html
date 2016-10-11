@@ -105,10 +105,13 @@
                         <button class="btn widget uib_w_2 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_menu"><i class="glyphicon glyphicon-align-justify button-icon-left" data-position="left"></i>
                         </button>
                     </div>
-                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col right">
+                        <button class="btn widget uib_w_10 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_search"><i class="glyphicon glyphicon-search button-icon-right" data-position="right"></i>
+                        </button>
+                    </div>
                 </div>
 
-                <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200, 'io':true}">
+                <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200}">
 
                     <div class="sidebar-content content-area vertical-col">
 
@@ -130,23 +133,34 @@
                         </div>
                     </div>
                 </div>
-                <div id="uib_page_reading" class="upage-content vertical-col left hidden">
-                    <div class="tarea widget uib_w_9 d-margins" data-uib="media/text" data-ver="0" name="uib_w_9">
-                        <div class="widget-container left-receptacle"></div>
-                        <div class="widget-container right-receptacle"></div>
-                        <div class="text-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="upage hidden" id="uib_page_reading2">
+            <div class="upage-outer">
+                <div class="uib-header header-bg container-group inner-element uib_w_11" data-uib="layout/header" data-ver="0">
+                    <h2>Cartas de Cristo</h2>
+                    <div class="widget-container wrapping-col single-centered"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left">
+                        <button class="btn widget uib_w_12 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_back"><i class="glyphicon glyphicon-chevron-left button-icon-left" data-position="left"></i>
+                        </button>
+                    </div>
+                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+
+                </div>
+                <a class="button backButton">
+                    <div class="upage-content ac0 content-area vertical-col" id="page_30_65">
+                        <div class="table-thing widget uib_w_8 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
+                            <label class="narrow-control label-inline">Text Reading</label>
+                            <textarea rows="2" class="wide-control form-control" wrap="soft" placeholder="Placeholder"></textarea>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
+            <a class="button backButton">
+            </a>
         </div>
-        <div class="upage vertical-col left hidden" id="uib_page_reading2">
-            <div class="table-thing widget uib_w_8 d-margins" data-uib="twitter%20bootstrap/text_area" data-ver="1">
-                <label class="narrow-control label-inline">Text Reading</label>
-                <textarea rows="2" class="wide-control form-control" wrap="soft" placeholder="Placeholder"></textarea>
-            </div>
-        </div>
+        <a class="button backButton">
+        </a>
     </body>
 
 </html>

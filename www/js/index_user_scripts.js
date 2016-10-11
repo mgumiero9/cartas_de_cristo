@@ -43,6 +43,14 @@
          return false;
     });
     
+        /* button  #btn_back */
+    $(document).on("click", "#btn_back", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#mainpage");
+         return false;
+    });
+
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
