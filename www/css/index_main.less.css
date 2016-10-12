@@ -510,3 +510,16 @@ label:empty {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+@media all {
+  .footer-bg {
+    background-color: #666666;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+@media all {
+  .color {
+    color: #ffffff;
+  }
+}
