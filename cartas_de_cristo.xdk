@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "597726ef-8652-4d73-92dc-68304c71837e",
-      "lastModifiedDate": 1476060417428,
+      "lastModifiedDate": 1476581616421,
       "creationDate": 1476059451510
     },
     "XDK-app-designer": "true",
@@ -77,6 +77,25 @@
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin",
         "checksum": "47137083"
+      },
+      {
+        "id": "cordova-plugin-sqlite-2",
+        "name": "SQLitePlugin",
+        "version": "1.0.4",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-sqlite-2",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-sqlite-2",
+        "selectedState": "Included",
+        "checksum": "69098cae",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "Cordova SQLite Plugin 2",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
       }
     ],
     "buildConfigurations": {
