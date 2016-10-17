@@ -90,22 +90,22 @@
         <script type="application/javascript" src="xdk/appdesigner/js/rest-of-space.js"></script>
         <script type="application/javascript" src="js/index_user_scripts.js"></script>
         <script type="application/javascript" src="xdk/ad/bs_subpage.js"></script>
-        <!--Adding the copy_db.js script-->
-        <script type="application/javascript" src="js/copy_db.js"></script>
+        
+        <script type="application/javascript" src="js/new_db_copy.js"></script>
+        
+        <script>
+        
+            dbcopy(mydatabase.db3);
+        
+        </script>
+
     </head>
 
     <body>
         <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
         <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
         <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
-        <script>
-            copyDatabaseFile('mydatabase.db3').then(function () {
-              // success! :)
-            }).catch(function (err) {
-              // error! :(
-              console.log(err);
-            });
-        </script>
+
         <div class="upage" id="mainpage">
             <div class="upage-outer">
                 <div class="uib-header header-bg container-group inner-element uib_w_1" data-uib="layout/header" data-ver="0">
